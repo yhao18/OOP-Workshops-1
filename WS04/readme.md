@@ -120,8 +120,8 @@ Design and code a class named `Reservation` that can store the following informa
   ```
   Reservation ID: NAME  <email>    Drinks on day DAY @ HOUR:00 for #PARTY_SIZE people.
   ```
-  - the name on the reservation should display on a field of size 10, aligned to the right
-  - the name on the reservation should display on a field of size 10, aligned to the right
+  - the ID on the reservation should display on a field of size 10, aligned to the right
+  - the name on the reservation should display on a field of size 20, aligned to the right
   - the email on the reservation (including the characters `<` and `>`) display on a field of size 20, aligned to the left.
   - this operator should insert the end line character before returning control.
   - if the reservation is for one person, your output should say "person" instead of "people".

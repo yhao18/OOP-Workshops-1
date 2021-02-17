@@ -280,7 +280,7 @@ Your design assumes that the type `T`:
   - iterate over the collection and add to your accumulator only those elements that are compatible with the local object.
      - check each element in the collection to determine if it is compatible with your accumulator object (use the `this->get()` member function to access the element)
      - if compatible, add the element to your accumulator object
-  - return a copy of your accumulator object to the client using the `+=` operator.
+  - return a copy of your accumulator object to the client.
 
 
 In our **very specific instantiation**, `SetSummable` will manage a collection of `PairSummable` objects; two objects of type `PairSummable` are considered compatible if the have the same key.  The design above is more general, and allows `SetSummable` to work with other types that are not `PairSummable` as long as they support the mentioned operations. 

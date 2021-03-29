@@ -63,7 +63,7 @@ namespace w9 {
 
 	void SecureData::code(char key)
 	{
-		// TODO (at-home): rewrite this function to use at least two threads
+		// TODO (at-home): rewrite this function to use at least four threads
 		//         to encrypt/decrypt the text.
 		converter(text, key, nbytes, Cryptor());
 
